@@ -1,0 +1,380 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#body {
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+
+/*navbar*/
+/* .forback{
+    background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('./images/netback.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+} */
+.forback {
+    height: 720px;
+    /*error : hight in px not vh */
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    /**/
+    position: relative;
+}
+
+.navlogoedit {
+    width: 13%;
+    height: 13%;
+    padding: 15px 15px;
+    margin-left: 34px;
+}
+
+.rightitem {
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.transop {
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    margin: 0px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), transparent;
+}
+
+.transop option {
+    background-color: rgb(56, 56, 56);
+}
+
+.btnanchor {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.btnsign {
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    padding: 6px 15px;
+    margin: 0px 18px;
+}
+
+/*intropage*/
+.homepage::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url(/images/netback.jpg) center center/cover no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 720px;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.6; */
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.headcomb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+}
+
+.primehead {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.thirdhead {
+    font-size: 26px;
+    padding-bottom: 1.78rem;
+}
+
+.fifthhead {
+    font-size: 1.18rem;
+    padding-bottom: 0.8rem;
+}
+
+
+.emailin {
+    outline: none;
+    height: 60px;
+    width: 450px;
+    background-color: white;
+    padding: 11px 14px;
+    border: 1.6px solid black;
+}
+
+.btnstart:hover {
+    background-color: red;
+}
+
+.btnstart {
+    background-color: rgb(204, 5, 5);
+    height: 57px;
+    width: 240px;
+    border: none;
+}
+
+.anchorstart:hover {
+    color: white;
+}
+
+.anchorstart {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 1.9rem;
+}
+
+/*page1*/
+.pageoddstart {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    padding: 40px 50px;
+
+}
+.rightpage1 {}
+
+/*page2*/
+.leftpage2 {
+    position: relative;
+}
+
+.forimg {}
+
+.pageevenstart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    padding: 10px 50px;
+}
+
+
+.ineerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid gray;
+    border-radius: 12px;
+    position: relative;
+    height: 96px;
+    /* width: 300px; */
+    margin: 0px 107px;
+    position: relative;
+    bottom: 107px;
+    background-color: black;
+}
+
+
+.uph3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px;
+}
+
+.download img {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
+
+.uppara {
+    margin: 0px 0px;
+    color: rgb(20, 104, 221);
+    font-size: 0.9rem;
+}
+
+.ansys {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.pagebighead {
+    font-size: 50px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    /* padding: 10px 186px; */
+}
+
+.pagebigpara {
+    font-size: 26px;
+}
+
+/*page3*/
+/*tv and mac and other images*/
+.macset{
+    width: 100%;
+}
+.tvset{
+    width: 100%;
+}
+.kidimg{
+    width: 100%;
+}
+
+.mobimg {
+    width: 100%;
+}
+
+.posterimg {
+    height: 89px;
+    width: 63px;
+    margin: 10px 10px;
+}
+/*page4*/
+
+/*Question tab*/
+.bootsection {
+    text-align: center;
+    background-color: black;
+    margin-top:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Question tab bootstrap*/
+.editme {
+    padding: 10px 250px;
+}
+.spaceboot{
+    margin: 8px 0px;
+    background-color: gray;
+}
+.boothead{
+    border: none;
+
+}
+.pagebigheadboot {
+    font-size: 50px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    padding: 38px 0px;
+}
+/**/
+.bootsecondhead{
+}
+
+.biglog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigloghead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.combinebottom{
+    padding-bottom: 6.2rem; ;
+}
+/*footer*/
+
+.footcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 65px;
+}
+.headfoot{
+    text-align: center;
+    font-size: 16px;
+    /* margin-right: 37rem; */
+    color: rgb(107,107,107);
+}
+.anchorfoot{
+    color: rgb(107,107,107);
+    text-decoration: none;
+}
+.footcontainer h5 {
+    padding: 30px 0px;
+    font-size: 0.85rem;
+    color: rgb(107,107,107);
+
+}
+.foottable{
+    display: flex;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;          
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.footlanguage{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 110px;
+    margin-right: 0rem;
+    outline: none;
+    border: 0.5px solid rgb(59, 56, 56);
+    border-radius: 2px;
+}
+.foottable li{
+    width: 25%;
+    /* height: 10%; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    padding: 8px 48px;
+    list-style: none;
+    text-align: left;
+}
+.foottable li a{
+    text-decoration: none;
+    color: rgb(107,107,107);
+}
+/*utility classes*/
+/*universal classes*/
+/* .rightpage {
+    width: 580px;
+} */
+
+.leftpagepage2 {
+    width: 580px;
+
+}  

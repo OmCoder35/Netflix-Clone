@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@500&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap" rel="stylesheet">
+    <title>Sign in page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* background-color: black; */
+            /* height: 650px;  downfall error due to this statememt */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: black;
+        }
+
+        body::before {
+            background: url(/images/landback.jpg) center center/cover no-repeat;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            height: 710px;
+            /*this should be 100% at nay cost*/
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .container::before {
+            background: rgb(43, 42, 42);
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 475px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+            border-radius: 15px;
+        }
+
+        div.container {
+            margin-top: 9%;
+            height: 430px;
+            width: 300px;
+            font-family: 'Poppins', sans-serif;
+            padding: 20px 30px;
+            flex-direction: column;
+            position: relative;
+        }
+
+        div .headone {
+            text-align: center;
+            padding: 10px 10px;
+            font-weight: 600;
+            color: white;
+            font-size: 26px;
+        }
+
+        div .headtwo {
+            padding: 7px 0px;
+            font-size: 17px;
+            color: white;
+        }
+
+        div .textbox {
+            margin: 2px 2px;
+            padding: 5px 5px;
+            border: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            background: none;
+            color: rgb(255, 255, 255);
+            outline: none;
+        }
+
+        div .login-btn {
+            margin: 15px 40px;
+            border: none;
+            background-color: #d30909;
+            text-shadow: 0px 3px 6px black;
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+            padding: 6px 87px;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 20px;
+        }
+
+        .login-btn:hover {
+            border: none;
+            cursor: pointer;
+
+        }
+
+        div .firstanchor {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            padding: 5px 0px;
+            color: white;
+        }
+
+        div .hr {
+            border: 1px solid gray;
+            background-color: gray;
+        }
+
+        div .saveme {
+            padding: 10px 10px;
+        }
+
+        div .imgcircle {
+            border: 2px solid red;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin: 3px 118px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./images/contact.png" alt="" class="imgcircle">
+        <h2 class="headone">Login Here</h2>
+        <h3 class="headtwo">Username</h3>
+        <input type="text" name="Username" id="Username" placeholder="Enter Username" class="textbox">
+        <hr class="hr">
+        <h3 class="headtwo">Password</h3>
+        <input type="password" name="password" id="Password" placeholder="Enter Password" class="textbox">
+        <hr class="hr">
+        <div>
+            <button class="login-btn">Login</button>
+        </div>
+        <div class="saveme">
+            <a href="#" class="firstanchor">Lost your password</a>
+            <a href="#" class="firstanchor">Don't have an account?</a>
+        </div>
+    </div>
+</body>

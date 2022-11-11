@@ -1,0 +1,133 @@
+.forback img.navlogoedit {
+    width: 30%;
+    padding: 8px 8px;
+    margin-left: 10px;
+}
+.forback button.btnsign {
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    padding: 5px 12px;
+    margin: 0px 4px;
+}
+.forback select.transop {
+    outline: none;
+    color: white;
+    font-size: 15px;
+    height: 32px;
+    width: 96px;
+    /* margin: 0px 0px; */
+    border: 1px solid white;
+    border-radius: 4px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), transparent;
+}
+.forback div.rightitem {
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.homepage div.headcomb h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.homepage h3.thirdhead {
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 2rem;
+}
+.homepage h5 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 7px 2px;   
+}
+.homepage input.emailin {
+    outline: none;
+    height: 47px;
+    width: 285px;
+    background-color: white;
+    padding: 11px 14px;
+    border: 1.6px solid black;
+}
+section.pageevenstart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 40px 50px;
+}
+section.pageevenstart img.mobimg {
+    width: 71%;
+}
+
+header div.homepage::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url(/images/netback.jpg) center center/cover no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.6; */
+}
+div.forback {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+div button.btnstart {
+    height: 40px;
+    width: 125px;
+    margin: 25px 14px;
+}
+section.bootsection div.editme {
+    padding: 4px 60px;
+}
+section.bootsection div.combinebottom {
+    padding-bottom: 1.2rem;
+}
+.combinebottom input.emailin {
+    outline: none;
+    height: 47px;
+    width: 285px;
+    background-color: white;
+    padding: 11px 14px;
+    border: 1.6px solid black;
+}
+section div.combinebottom h4 {
+    font-size: 15px;
+    padding: 14px 8px;
+
+}
+footer div.footcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 65px;
+}
+footer div.foottable {
+    display: flex;
+    /* border-collapse: collapse; */
+    margin: 25px 0;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    /* min-width: 400px; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.foottable li {
+    width: 25%;
+    /* height: 10%; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    padding: 8px 48px;
+    list-style: none;
+    text-align: right;
+}

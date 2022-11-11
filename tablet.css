@@ -1,0 +1,115 @@
+.forback img{
+    width: 20%;
+    padding: 8px 8px;
+    margin-left: 34px;
+}
+.headcomb h1{
+    font-size: 3.1rem;
+    text-align: center  ;
+}
+.homepage h5{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.biglog{
+    display: flex;
+    flex-direction: column;
+}
+.biglog button{
+    height: 40px;
+    width: 125px;
+    margin-top: 21px;
+}
+.biglog button a{
+    font-size: 1rem;
+}
+/*for odd*/
+section.pageoddstart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 40px 50px;
+}
+section.pageoddstart .pagebigpara{
+    font-size: 1.2rem;
+    
+}
+.rightpage img{
+    /* height: 240px;
+    width: 370px;  */
+}
+section.pageoddstart h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+    /* padding: 10px 186px; */
+}
+section.pageevenstart p{
+    font-size: 1.2rem;
+}
+section.pageevenstart .rightpage{
+    bottom:50px ;
+}
+/*for even*/
+section.pageevenstart{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 40px 50px;
+}
+
+section.pageevenstart h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+    /* padding: 10px 186px; */
+}
+/*bootstrap collpase*/
+section.bootsection h2{
+    font-size: 2.2rem;
+}
+section.bootsection div.editme{
+    padding: 4px 150px;
+}
+section div.combinebottom h4{
+    font-size: 23px;
+}
+section.pageevenstart .leftpagepage2{
+    width: 460px;
+}
+section.pageevenstart .leftpagepage2 .posterimg{
+    height:70px;
+    width: 50px;
+    margin: 5px 5px;
+}
+section.pageevenstart .leftpagepage2 .markone p{
+    font-size: 0.7rem;
+}
+section.pageevenstart .leftpagepage2 .markone h3{
+    font-size: 14px;
+}
+section div#innercontain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid gray;
+    border-radius: 12px;
+    position: relative;
+    height: 80px;
+    /* width: 300px; */
+    margin: 0px 107px;
+    position: relative;
+    bottom: 107px;
+    background-color: black;
+}

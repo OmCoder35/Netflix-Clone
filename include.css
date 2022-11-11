@@ -1,0 +1,10 @@
+/*CSS reset*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navlogoedit{
+    width: 50%;
+    height: 50%;
+}
+
